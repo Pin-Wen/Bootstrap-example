@@ -1,6 +1,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-	color: #77727C;
+	color: #7C7775;
 	background-color: #F7F7F7;
 	}
 
@@ -13,13 +13,40 @@ h3 {
 	}
 
 .navbar-default {
-	background-color:;
-	border-color:;
+	background-color: ;
+	border-color: ;
 	}
 
-.navbar-default {}
+.full {
+	background: url('http://www.lboro.ac.uk/media/wwwlboroacuk/external/content/abouttheuniversity/hazlerigg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    opacity: 0.5;
+    }
 
-img #image {
-	border-radius: 80%;
-	padding-left: 200px;
+.site-heading {
+	text-align: center;
+    line-height: 1.1;
+    display: block;
+    font-weight: 1000;
+    margin: 100px 100px;
+    color: black;
+	}
+
+.subheading {
+	font-size: 30px;
+    line-height: 1.1;
+    display: block;
+    font-weight: 1000;
+    margin: 0px;
+    color: black;
+	}
+
+@media only screen and (min-width: 768px) {
+	h1 {
+		font-size: 80px;
+	}
 	}
